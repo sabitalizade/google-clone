@@ -4,11 +4,24 @@
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     height: 100vh;
 }
+@media screen and (max-width:1100px) {
+    .container{
+        width: 60%;
+    }
+}
+@media screen and (max-width:700px) {
+    .container{
+        width: 80%;
+    }
+}
 .logo{
-    width: 100%;
-    margin-top: 10vh !important;
+    /* width: 100%; */
+    margin-top: 20vh !important;
     /* margin: 0 auto; */
+}
+.input{
+    width: 100%;
 }
